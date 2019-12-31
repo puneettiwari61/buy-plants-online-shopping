@@ -17,10 +17,10 @@ export default class componentName extends Component {
         </Link>
         <ul className='navbar-nav align-items-center'>
           <li className='nav-item ml-5'>
-            <Link to='/' className='nav-link'>products</Link>
+            <Link to='/' className='nav-link'>Home</Link>
           </li>
         </ul>
-        <h3 style={{textAlign:'center', paddingLeft:'24rem', fontWeight:'bolder', fontSize:'3rem', color:'white' }}>Plantsman World</h3>
+        <h3 style={{textAlign:'center', paddingLeft:'28rem', fontWeight:'bolder', fontSize:'3rem', color:'white' }}>Plantsman World</h3>
         <Link to='/cart' className='ml-auto'>
         <ButtonContainer>
             <i className='fas fa-cart-plus'/>
