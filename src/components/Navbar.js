@@ -7,7 +7,7 @@ import { ButtonContainer } from './Button';
 export default class componentName extends Component {
   render() {
     return (
-      <NavWrapper className='navbar navbar-expand-sm navbar-dark px-sm-5' style={{background:'#333'}}>
+      <NavWrapper className='navbar navbar-expand-sm navbar-dark px-sm-5' style={{background:'#333', position:'fixed', width:'100%', zIndex:'20', top:'0px',opacity:'0.95'}}>
         {/* 
         https://www.iconfinder.com/icons/1243689/call_phone_icon
         Creative Commons (Attribution 3.0 Unported);
@@ -20,7 +20,7 @@ export default class componentName extends Component {
             <Link to='/' className='nav-link'>products</Link>
           </li>
         </ul>
-        <h3 style={{textAlign:'center', paddingLeft:'20rem', fontWeight:'bolder', fontSize:'3rem', color:'white' }}>Let's Make Bageecha</h3>
+        <h3 style={{textAlign:'center', paddingLeft:'24rem', fontWeight:'bolder', fontSize:'3rem', color:'white' }}>Plantsman World</h3>
         <Link to='/cart' className='ml-auto'>
         <ButtonContainer>
             <i className='fas fa-cart-plus'/>
