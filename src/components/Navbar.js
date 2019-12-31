@@ -20,7 +20,7 @@ export default class componentName extends Component {
             <Link to='/' className='nav-link'>Home</Link>
           </li>
         </ul>
-        <h3 style={{textAlign:'center', paddingLeft:'28rem', fontWeight:'bolder', fontSize:'3rem', color:'white' }}>Plantsman World</h3>
+        <h3 style={{textAlign:'center', paddingLeft:'29.5rem', fontWeight:'bolder', fontSize:'3rem', color:'white' }}>Plantsman World</h3>
         <Link to='/cart' className='ml-auto'>
         <ButtonContainer>
             <i className='fas fa-cart-plus'/>
